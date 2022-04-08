@@ -9,8 +9,8 @@ function Rotas() {
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="cadastros" element={<Cadastros />} />
-      <Route path="editar" element={<EditCurso />} />
-      <Route path="*" element={<Home />} />
+      <Route path="editar/:id" element={<EditCurso />} />
+      <Route path="/" element={<Home />} />
     </Routes>
   )
 }
