@@ -8,15 +8,18 @@ import Rotas from "../routes/Routes"
 import Logo from "../components/Logo/index"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
+import { CursoContent } from "../hooks/context"
 
-function App(props) {
+function App() {
   return (
     <BrowserRouter>
       <div className="app">
-        <Rotas />
-        <Logo />
-        <Navbar />
-        <Footer />
+        <CursoContent>
+          <Rotas />
+          <Logo />
+          <Navbar />
+          <Footer />
+        </CursoContent>
       </div>
     </BrowserRouter>
   )
