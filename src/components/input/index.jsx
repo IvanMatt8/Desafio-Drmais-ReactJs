@@ -5,7 +5,7 @@ function Input({ label, name, className, placeholder, as, ...rest }) {
     <div className={className}>
       <label>{label}</label>
       {as === "textarea" ? (
-        <textarea class="form-control" rows="3" placeholder={placeholder} />
+        <textarea {...rest} name={name} class="form-control" rows="3" placeholder={placeholder} />
       ) : (
         <input {...rest} name={name} placeholder={placeholder} className="form-control" />
       )}
