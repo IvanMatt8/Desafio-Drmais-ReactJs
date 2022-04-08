@@ -1,24 +1,23 @@
 aside.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding-bottom: 15px;
 }
 
-.logoDrmais{
-    transition: all 0.5s;
-    cursor: pointer;
+.logoDrmais {
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
-.logoDrmais:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+.logoDrmais:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
 
-
-@media (max-width: 576px){
-    aside.logo img {
-        width: 150px;
-    }
+@media (max-width: 576px) {
+  aside.logo img {
+    width: 150px;
+  }
 }
