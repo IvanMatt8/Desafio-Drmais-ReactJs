@@ -9,12 +9,6 @@ function Navbar() {
         <Link to="/">
           <i className=" fa fa-home"></i>Inicio
         </Link>
-        <Link to="/cadastros">
-          <i className=" fa fa-users"></i>Novo Curso
-        </Link>
-        <Link to="/editar">
-          <i className=" fa fa-users"></i>Editar Curso
-        </Link>
       </nav>
     </aside>
   )
